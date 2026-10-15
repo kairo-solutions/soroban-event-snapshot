@@ -1,0 +1,16 @@
+{
+  "name": "soroban-event-snapshot",
+  "version": "0.1.0",
+  "description": "Export filtered Soroban contract events to newline-delimited JSON",
+  "type": "module",
+  "bin": {
+    "soroban-event-snapshot": "./src/cli.js"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT"
+}

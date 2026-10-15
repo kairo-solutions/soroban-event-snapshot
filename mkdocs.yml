@@ -1,0 +1,57 @@
+site_name: Soroban Event Snapshot
+site_description: Export filtered Soroban contract events to newline-delimited JSON
+site_author: Kairo Solutions
+site_url: https://kairo-solutions.github.io/soroban-event-snapshot/
+
+repo_url: https://github.com/kairo-solutions/soroban-event-snapshot
+repo_name: kairo-solutions/soroban-event-snapshot
+
+copyright: Copyright &copy; 2026 Kairo Solutions
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - navigation.top
+    - search.highlight
+    - search.share
+    - search.suggest
+    - content.code.copy
+
+extra_css:
+  - assets/stylesheets/documentation.css
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+
+nav:
+  - Home: index.md
+  - Guides:
+      - Quick start: guides/quickstart.md
+      - Pagination and output: guides/pagination.md
+  - Reference:
+      - CLI and library: reference/api.md
+  - About:
+      - Development: about/development.md

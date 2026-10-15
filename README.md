@@ -5,6 +5,8 @@ range to newline-delimited JSON (JSONL). It is a dependency-free JavaScript CLI
 for repeatable local snapshots and small ingestion jobs; it does not decode or
 assume a schema for XDR-encoded event topics and values.
 
+[**Read the documentation**](https://kairo-solutions.github.io/soroban-event-snapshot/)
+
 ## Usage
 
 Requires Node.js 20 or newer and a Soroban RPC endpoint with the requested
